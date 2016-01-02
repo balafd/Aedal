@@ -23,10 +23,13 @@ $ brew install carthage
 
 Once you done installing Carthage,
 
-Run ```carthage update --platform iOS``` in terminal on project directory, to build the framework and drag the built Alamofire.framework into your Xcode project as detailed in [Carthage Page](https://github.com/Carthage/Carthage).
+Run ```carthage update --platform iOS``` in terminal on project directory, to build the framework and drag the built TheFramework.framework into your Xcode project as detailed in [Carthage Page](https://github.com/Carthage/Carthage).
 
 ## TODO
 
+
+## For Collaborators
+___Use WTF Branch (to push / pull)___
 - ReadMe.md
   - Project Structure
   - Swift Code/Style Guide to be followed
