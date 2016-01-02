@@ -1,0 +1,353 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2DC644CB1C3834B700BDD6C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC644CA1C3834B700BDD6C3 /* AppDelegate.swift */; };
+		2DC644CD1C3834B700BDD6C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC644CC1C3834B700BDD6C3 /* ViewController.swift */; };
+		2DC644D01C3834B700BDD6C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DC644CE1C3834B700BDD6C3 /* Main.storyboard */; };
+		2DC644D21C3834B700BDD6C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DC644D11C3834B700BDD6C3 /* Assets.xcassets */; };
+		2DC644D51C3834B700BDD6C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DC644D31C3834B700BDD6C3 /* LaunchScreen.storyboard */; };
+		2DF3C3A21C38366900DB2594 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DF3C3A11C38366900DB2594 /* Alamofire.framework */; };
+		2DF3C3A61C3836E600DB2594 /* Alamofire.framework.dSYM in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2DF3C3A51C3836E600DB2594 /* Alamofire.framework.dSYM */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2DF3C3A41C3836BD00DB2594 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+				2DF3C3A61C3836E600DB2594 /* Alamofire.framework.dSYM in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2DC644C71C3834B700BDD6C3 /* Aedal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aedal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DC644CA1C3834B700BDD6C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2DC644CC1C3834B700BDD6C3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2DC644CF1C3834B700BDD6C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2DC644D11C3834B700BDD6C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2DC644D41C3834B700BDD6C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2DC644D61C3834B700BDD6C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DF3C3A11C38366900DB2594 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		2DF3C3A51C3836E600DB2594 /* Alamofire.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = Alamofire.framework.dSYM; path = Carthage/Build/iOS/Alamofire.framework.dSYM; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2DC644C41C3834B700BDD6C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DF3C3A21C38366900DB2594 /* Alamofire.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2DC644BE1C3834B700BDD6C3 = {
+			isa = PBXGroup;
+			children = (
+				2DC644C91C3834B700BDD6C3 /* Aedal */,
+				2DC644C81C3834B700BDD6C3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2DC644C81C3834B700BDD6C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2DC644C71C3834B700BDD6C3 /* Aedal.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2DC644C91C3834B700BDD6C3 /* Aedal */ = {
+			isa = PBXGroup;
+			children = (
+				2DC644CA1C3834B700BDD6C3 /* AppDelegate.swift */,
+				2DC644CC1C3834B700BDD6C3 /* ViewController.swift */,
+				2DC644CE1C3834B700BDD6C3 /* Main.storyboard */,
+				2DC644D11C3834B700BDD6C3 /* Assets.xcassets */,
+				2DC644D31C3834B700BDD6C3 /* LaunchScreen.storyboard */,
+				2DC644D61C3834B700BDD6C3 /* Info.plist */,
+				2DF3C3A71C38382900DB2594 /* Frameworks */,
+			);
+			path = Aedal;
+			sourceTree = "<group>";
+		};
+		2DF3C3A71C38382900DB2594 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2DF3C3A51C3836E600DB2594 /* Alamofire.framework.dSYM */,
+				2DF3C3A11C38366900DB2594 /* Alamofire.framework */,
+			);
+			name = Frameworks;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2DC644C61C3834B700BDD6C3 /* Aedal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DC644D91C3834B700BDD6C3 /* Build configuration list for PBXNativeTarget "Aedal" */;
+			buildPhases = (
+				2DC644C31C3834B700BDD6C3 /* Sources */,
+				2DC644C41C3834B700BDD6C3 /* Frameworks */,
+				2DC644C51C3834B700BDD6C3 /* Resources */,
+				2DF3C3A31C38367600DB2594 /* ShellScript */,
+				2DF3C3A41C3836BD00DB2594 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Aedal;
+			productName = Aedal;
+			productReference = 2DC644C71C3834B700BDD6C3 /* Aedal.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2DC644BF1C3834B700BDD6C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Freshdesk;
+				TargetAttributes = {
+					2DC644C61C3834B700BDD6C3 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = PKUQ4ZWJH3;
+					};
+				};
+			};
+			buildConfigurationList = 2DC644C21C3834B700BDD6C3 /* Build configuration list for PBXProject "Aedal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2DC644BE1C3834B700BDD6C3;
+			productRefGroup = 2DC644C81C3834B700BDD6C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2DC644C61C3834B700BDD6C3 /* Aedal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2DC644C51C3834B700BDD6C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DC644D51C3834B700BDD6C3 /* LaunchScreen.storyboard in Resources */,
+				2DC644D21C3834B700BDD6C3 /* Assets.xcassets in Resources */,
+				2DC644D01C3834B700BDD6C3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2DF3C3A31C38367600DB2594 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2DC644C31C3834B700BDD6C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DC644CD1C3834B700BDD6C3 /* ViewController.swift in Sources */,
+				2DC644CB1C3834B700BDD6C3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2DC644CE1C3834B700BDD6C3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2DC644CF1C3834B700BDD6C3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2DC644D31C3834B700BDD6C3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2DC644D41C3834B700BDD6C3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2DC644D71C3834B700BDD6C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2DC644D81C3834B700BDD6C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2DC644DA1C3834B700BDD6C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = Aedal/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.freshdesk.Aedal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2DC644DB1C3834B700BDD6C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = Aedal/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.freshdesk.Aedal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2DC644C21C3834B700BDD6C3 /* Build configuration list for PBXProject "Aedal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DC644D71C3834B700BDD6C3 /* Debug */,
+				2DC644D81C3834B700BDD6C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DC644D91C3834B700BDD6C3 /* Build configuration list for PBXNativeTarget "Aedal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DC644DA1C3834B700BDD6C3 /* Debug */,
+				2DC644DB1C3834B700BDD6C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2DC644BF1C3834B700BDD6C3 /* Project object */;
+}
