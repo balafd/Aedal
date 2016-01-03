@@ -21,6 +21,9 @@ $ brew update
 $ brew install carthage
 ```
 
+If you face any issues in ```brew update```,
+enter ```sudo chown -R $(whoami):admin /usr/local``` and then update brew
+
 Once you done installing Carthage,
 
 Run ```carthage update --platform iOS``` in terminal on project directory, to build the framework and drag the built TheFramework.framework into your Xcode project as detailed in [Carthage Page](https://github.com/Carthage/Carthage).
